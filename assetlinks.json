@@ -1,20 +1,5 @@
 [{
-  "_name": "debugDev",
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.teravin.rhb.travelcard",
-    "sha256_cert_fingerprints":
-    ["E3:76:75:D2:27:3D:D7:DE:05:E0:10:68:B5:6A:71:01:94:FB:21:CF:D9:5B:6A:D1:29:29:63:36:8C:8F:30:44"]
-  }
-},
-{
-  "_name": "releaseDev",
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.teravin.rhb.travelcard",
-    "sha256_cert_fingerprints":
-    ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
-  }
+  "target" : { "namespace": "android_app", "package_name": "com.teravin.rhb.travelcard",
+               "sha256_cert_fingerprints": ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"] }
 }]
