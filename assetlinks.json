@@ -4,21 +4,45 @@
     "namespace": "android_app",
     "package_name": "com.teravin.rhb.travelcard",
     "sha256_cert_fingerprints":
-    ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
+    ["7C:D2:AC:3E:10:C9:F0:2B:FE:7B:6F:D9:F7:A2:21:99:10:F2:40:7A:36:0B:4B:ED:1B:51:1B:4E:93:42:E7:CC"]
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://sudarsono.github.io"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.teravin.rhb.travelcard",
+    "package_name": "com.teravin.rhb.travelcard.sit",
+    "sha256_cert_fingerprints":
+    ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.teravin.rhb.travelcard.uat",
+    "sha256_cert_fingerprints":
+    ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.teravin.rhb.travelcard.cloud",
+    "sha256_cert_fingerprints":
+    ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.teravin.rhb.travelcard.prp",
+    "sha256_cert_fingerprints":
+    ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.teravin.rhb.travelcard.sie",
     "sha256_cert_fingerprints":
     ["8C:E1:28:66:1B:E1:3F:44:84:47:F9:F3:02:8A:3D:AB:B4:2F:78:C7:60:7E:69:B3:0D:66:36:CC:7B:30:B5:FC"]
   }
